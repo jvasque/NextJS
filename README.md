@@ -1,5 +1,5 @@
 # NextJS
-A project to play podcast with nextJS, using data from the API http://audioboom.com/
+A project to play podcast builded with nextJS, using data from the API http://audioboom.com/
 
 ## STEPS TO RUN PROJECT
 

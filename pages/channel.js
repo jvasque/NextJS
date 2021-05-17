@@ -1,6 +1,7 @@
 import React from "react";
 import axios from "axios";
-import Link from "next/link";
+import Link from "next/Link";
+
 
 const getChannels = async (id) => {
   let data = await axios.get(`https://api.audioboom.com/channels/${id}`);
@@ -155,13 +156,7 @@ const channel = ({ channel, audio_clips, channels }) => {
         }
       `}</style>
 
-      <style jsx global>{`
-        body {
-          margin: 0;
-          font-family: system-ui;
-          background: white;
-        }
-      `}</style>
+   
     </div>
   );
 };
